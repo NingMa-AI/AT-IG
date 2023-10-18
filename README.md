@@ -11,7 +11,7 @@ Codes of "Detect early neurodevelopmental impairment for infants via time-series
                             
 
 ## Training and test
-      python main_bone.py --input_c 150 --output_c 150  --model_save_path "checkpoints/attention_visalization" --seed seed_2021 --dataset_folder [data_path]/seed_2021 --data_path [data_path]/seed_2021/precessed --gpu_id 0  --add_info_gain True
+      python main_bone.py --input_c 150 --output_c 150  --model_save_path "checkpoints/seed_2021" --seed seed_2021 --dataset_folder [data_path]/seed_2021 --data_path [data_path]/seed_2021/precessed --gpu_id 0  --add_info_gain True
 
 
       
