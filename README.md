@@ -1,5 +1,5 @@
 # AT-IG
-Codes of "Detect early neurodevelopmental impairment for infants via time-series anomaly detection"
+Codes of "Detect early neurodevelopmental impairment for infants via time-series anomaly detection". Our AT-IG model is developed from the original [AT model](https://github.com/thuml/Anomaly-Transformer).
 
 ## Environment setting
     Python=3.8
