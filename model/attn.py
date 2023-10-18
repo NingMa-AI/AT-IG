@@ -5,7 +5,7 @@ import numpy as np
 import math
 from math import sqrt
 import os
-from visualizer import get_local
+# from visualizer import get_local
 
 class TriangularCausalMask():
     def __init__(self, B, L, device="cpu"):
@@ -33,7 +33,7 @@ class AnomalyAttention(nn.Module):
             for j in range(window_size):
                 self.distances[i][j] = abs(i - j)
                 
-    @get_local('series')
+    # @get_local('series')
     def forward(self, queries, keys, values, sigma, attn_mask):
         B, L, H, E = queries.shape  # B=256, L=100, H=8, E=64, D=64, S=100
         _, S, _, D = values.shape
