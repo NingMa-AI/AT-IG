@@ -7,7 +7,7 @@ Codes of "Detect early neurodevelopmental impairment for infants via time-series
     torchvision=0.8.1  
 
 ## Dataset setting
- 1. The used skeleton datasets can be requested by email. 
+ 1. The used skeleton datasets can be requested by email [ma_ning@zju.edu.cn]. 
                             
 
 ## Training and test
